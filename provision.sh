@@ -18,5 +18,6 @@ sudo systemctl reload nginx
 
 # Set up a sample project
 
+sudo rm -R /var/www/html
 sudo mkdir -p /var/www/public
 echo -e "<?php\n\nphpinfo();" > /var/www/public/index.php
