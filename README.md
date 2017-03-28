@@ -1,7 +1,5 @@
 ## Elektrum provisioning 
 
-Or setting up a VPS
-
 1\. Spin up Digital Ocean / Linode using Ubuntu v16, with 1GB RAM minimum and in Frankfurt region
 
 2\. Receive root credentials via e-mail
