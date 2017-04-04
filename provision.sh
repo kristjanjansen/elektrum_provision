@@ -10,6 +10,9 @@ curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get update
 sudo apt-get install yarn
+sudo curl -sS https://getcomposer.org/installer -o composer-setup.php
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+sudo rm composer-setup.php
 
 # Copy Nginx config
 
@@ -20,4 +23,4 @@ sudo systemctl reload nginx
 
 sudo rm -R /var/www/html
 cd /var/www
-git clone https://github.com/kristjanjansen/elektrum_frontend
+git clone https://github.com/kristjanjansen/elektrum_yii

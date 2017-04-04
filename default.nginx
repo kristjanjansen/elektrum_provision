@@ -2,7 +2,7 @@ server {
     listen 80 default_server;
     listen [::]:80 default_server;
 
-    root /var/www/elektrum_frontend/prelive;
+    root /var/www/elektrum_yii/prelive;
     index index.php index.html index.htm;
 
     server_name default;

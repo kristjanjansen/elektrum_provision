@@ -9,7 +9,8 @@
 4\. Run
 
 ```sh
-cd /var
+sudo mkdir -p /var/www
+cd /var/www
 git clone https://github.com/kristjanjansen/elektrum_provision
 cd elektrum_provision
 ./provision.sh
